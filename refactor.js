@@ -31,7 +31,7 @@ function doSomethingCool() {
 var newFunction = function() {
   console.log("Something Cool!");
 };
-newFunction(5);
+newFunction();
 // -----------------------------------------------
 
 //////////////////////////////////////////////////
@@ -104,9 +104,9 @@ var reverseStr = function(str) {
 };
 
 // Put your answer below -------------------------
-var reverseStr = function(str) {
-  return str.split("").reverse().join("");
-}
+//var reverseStr = function(str) {
+  //return str.split("").reverse().join("");
+//}
 
 // -----------------------------------------------
 
