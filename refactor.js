@@ -82,8 +82,7 @@ letter = "z";
 console.log("The letter is", letter);
 
 // Put your answer below -------------------------
-
-
+//The letter z will log first. The letter y will log second because setTimeout has a 1 second delay. X is irrelevant because it isn't being console logged. 
 // -----------------------------------------------
 
 //////////////////////////////////////////////////
