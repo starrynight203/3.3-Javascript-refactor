@@ -243,7 +243,11 @@ var addNumbers = function(numberA, numberB) {
 var twoPlusTwo = addNumbers(2,2);
 
 // Put your answer below -------------------------
-
+var addNumbers = function(numberA, numberB) {
+  console.log(numberA + numberB);
+};
+var twoPlusTwo = 3;
+var twoPlusTwo = addNumbers(2,2);
 
 // -----------------------------------------------
 
