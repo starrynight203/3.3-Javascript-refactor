@@ -82,7 +82,7 @@ letter = "z";
 console.log("The letter is", letter);
 
 // Put your answer below -------------------------
-//The letter z will log first. The letter y will log second because setTimeout has a 1 second delay. X is irrelevant because it isn't being console logged. 
+//The letter z will log first. The letter y will log second because setTimeout has a 1 second delay. X is irrelevant because it isn't being console logged.
 // -----------------------------------------------
 
 //////////////////////////////////////////////////
@@ -104,8 +104,8 @@ var reverseStr = function(str) {
 
 // Put your answer below -------------------------
 var reverseStr = function(str) {
-  return str.split("").reverse().join("");
-}
+  return str.split("").reverse().join("")
+};
 
 // -----------------------------------------------
 
@@ -139,7 +139,10 @@ var spanishColor = function(colorName) {
 };
 
 // Put your answer below -------------------------
-
+var spanishColor = function(colorName) {
+  var colors = {rojo:"#ff0000", blanco:"#ffffff", azul:"#0000ff", verde:"#00ff00", negro:"#000000"};
+  return colors[colorName];
+};
 
 // -----------------------------------------------
 
